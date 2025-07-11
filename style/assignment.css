@@ -111,15 +111,6 @@ font-weight: bold;
 
 
 
-
-
-
-
-
-
-
-
-
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -193,4 +184,123 @@ main{
     padding: 30px;
     border-radius: 5px;
    box-shadow: 0px 0px 2px 0px #181818;
+}
+
+
+
+
+
+
+
+.focus-part{
+    box-shadow: #181818;
+    border-radius: 50px;
+    text-align: center;
+  background-color: #f8f9ff;
+  padding: 80px 20px;
+}
+
+.title{
+    font-size: 36px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+
+}
+
+.subtitle{
+      font-size: 16px;
+  color: #5f5f5f;
+  margin-bottom: 20px;
+
+}
+
+.focus-part image {
+    padding-top: 5px;
+  margin-top: 40px;
+  max-width: 100%;
+  border-radius: 24px;
+}
+
+.focus-btn{
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  
+}
+
+
+
+
+.form{
+ background-color: #f1f5ff;
+  padding: 100px 100px;
+
+}
+
+
+.form-section{
+      display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+
+}
+
+
+.form-text{
+    flex: 1;
+}
+
+.form-text h1 {
+    font-size: 48px;
+  font-weight: 800;
+  color: #121212;
+
+
+}
+
+
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.contact-form label {
+  font-weight: 600;
+  margin: 8px 0 4px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 100%;
+}
+
+
+.contact-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 28px;
+  border: none;
+  border-radius:  8px;
+  font-size: 10px;
+  font-weight: 100;
+  
 }
