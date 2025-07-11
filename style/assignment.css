@@ -42,7 +42,7 @@ margin-right: 50px;
 
 .hero-titile{
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom:  20px;
 }
 
 
@@ -95,18 +95,6 @@ font-weight: bold;
   width:100%;
   border-radius: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -198,6 +186,11 @@ main{
     text-align: center;
   background-color: #f8f9ff;
   padding: 80px 20px;
+}
+
+
+.focus-part img{
+    border-radius:  45px;
 }
 
 .title{
@@ -303,4 +296,46 @@ main{
   font-size: 10px;
   font-weight: 100;
   
+}
+
+
+
+
+
+.footer {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.footer-logo{
+  font-size: 48px;
+  font-weight: 800;
+  color: #4f46e5; 
+  margin-bottom: 20px;
+}
+
+.footer-description{
+  color: #6b7280; 
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.footer-link{
+   
+    
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  
+  
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #6b7280;
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
