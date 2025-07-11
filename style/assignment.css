@@ -35,8 +35,6 @@ margin-right: 50px;
 
 .banner {
     display: flex;
-    
-    
     margin: 200px 0px 200px 500px;
     padding:  50px 50px;
     
@@ -47,9 +45,12 @@ margin-right: 50px;
     margin-bottom: 20px;
 }
 
+
+
+
+
+
 .btn-primary{
-
-
   border: none;
   text-align: center;
 
@@ -60,4 +61,37 @@ margin-right: 50px;
 }
 .text-primary{
     padding-left: 60px;
+}
+
+
+
+.action {
+  display: flex;
+  gap: 500px;
+  align-items: center;
+  margin: 80px 90px;
+ border-radius: 50%;
+
+  
+}
+
+
+
+
+/* second part-left */
+.btn-secondary{
+background-color: blue;
+font-weight: bold;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 8px;
+}
+
+
+
+/*  second part - image part right */
+.action img {
+  width:100%;
+  border-radius: 50px;
 }
