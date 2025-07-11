@@ -176,10 +176,6 @@ main{
 
 
 
-
-
-
-
 .focus-part{
     box-shadow: #181818;
     border-radius: 50px;
@@ -224,8 +220,6 @@ main{
   font-size: 10px;
   
 }
-
-
 
 
 .form{
@@ -299,9 +293,6 @@ main{
 }
 
 
-
-
-
 .footer {
   background-color: #ffffff;
   padding: 80px 20px;
@@ -316,19 +307,16 @@ main{
 }
 
 .footer-description{
-  color: #6b7280; 
   font-size: 16px;
   margin-bottom: 30px;
-  line-height: 1.6;
+  
 }
 
 .footer-link{
-   
-    
   display: flex;
   justify-content: center;
   gap: 40px;
-  flex-wrap: wrap;
+ 
   
   
 }
