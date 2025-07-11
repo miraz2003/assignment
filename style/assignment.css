@@ -95,3 +95,84 @@ font-weight: bold;
   width:100%;
   border-radius: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.secondary-bg{
+
+    background-color: rgb(209, 170, 207);
+}
+
+
+/* about style */
+.about{
+    border-radius: 20px;
+    padding: 10px  10px;
+    text-align: center;
+     margin-bottom: 100px;
+   
+}
+
+
+/* main style */
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.item-description{
+    font-weight: 600;
+
+}
+
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.item-description{
+     color: #4f46e5;
+  font-size:  60px;
+}
+
+
+
+.item-title{
+
+
+ display: flex;
+  justify-content: space-around;
+  padding: 0px 10px;
+  
+}
