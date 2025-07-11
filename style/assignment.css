@@ -1,0 +1,63 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+   
+}
+
+nav ul li{
+list-style: none;
+margin-right: 50px;
+}
+
+.btn-primary{
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+
+.header{
+    background-image: url('../assignment-images/Hero-bg.png');
+}
+
+.nav-title{
+  color: #4f46e5;
+  font-weight: 800;
+  font-weight: bold;
+  
+}
+
+
+.banner {
+    display: flex;
+    
+    
+    margin: 200px 0px 200px 500px;
+    padding:  50px 50px;
+    
+}
+
+.hero-titile{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+
+
+  border: none;
+  text-align: center;
+
+  border-radius: 6px;
+  
+  background-color: blue;
+  color: white;
+}
+.text-primary{
+    padding-left: 60px;
+}
